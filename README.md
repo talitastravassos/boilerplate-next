@@ -12,7 +12,15 @@
 
 ## Getting Started
 
-First, run the development server:
+Create a new project running:
+
+```
+yarn create next-app -e https://github.com/talitastravassos/boilerplate-next
+# or
+npx create-next-app -e https://github.com/talitastravassos/boilerplate-next
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
