@@ -1,6 +1,7 @@
 # Boilerplate for Next JS projects.
 
 ## Tools
+
 - Typescript
 - Eslint
 - Prettier
@@ -9,6 +10,7 @@
 - Husky
 - Styled Components
 - Babel
+- DependaBot
 
 ## Getting Started
 
