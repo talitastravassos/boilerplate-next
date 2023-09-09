@@ -1,7 +1,3 @@
-export const Main = () => {
-  return (
-    <main>
-      <h1>Next Boilerplate</h1>
-    </main>
-  );
-};
+import { Main } from "./main";
+
+export { Main };
