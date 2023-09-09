@@ -10,4 +10,5 @@ export const LinkButton = styled(Link)`
   padding: 0.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
+  margin: 0 0.5rem;
 `;
