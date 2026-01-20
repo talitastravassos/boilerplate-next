@@ -1,9 +1,3 @@
-"use client";
-
-import StyledComponentsRegistry from "lib/registry";
-import GlobalStyles from "../../../../styles/global";
-import { Container } from "../../../../styles/styles";
-
 //custom layout da dumb page
 export default function DumbLayout({
   // Layouts must accept a children prop.
@@ -15,11 +9,8 @@ export default function DumbLayout({
   return (
     <html>
       <body suppressHydrationWarning={true}>
-        <StyledComponentsRegistry>
-          <h1>Dumb Layout</h1>
-          <Container>{children}</Container>
-          <GlobalStyles />
-        </StyledComponentsRegistry>
+        <h1>Dumb Layout</h1>
+        {children}
       </body>
     </html>
   );

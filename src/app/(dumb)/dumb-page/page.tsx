@@ -1,4 +1,4 @@
-import { Dumb } from "components/Dumb";
+import { Dumb } from "@/components/Dumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

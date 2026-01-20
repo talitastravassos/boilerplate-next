@@ -1,8 +1,4 @@
-"use client";
-
-import StyledComponentsRegistry from "lib/registry";
-import GlobalStyles from "../../../styles/global";
-import { Container } from "../../../styles/styles";
+import "@/styles/globals.scss";
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -13,12 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
-        <StyledComponentsRegistry>
-          <h1>Main Layout</h1>
-          <Container>{children}</Container>
-          <GlobalStyles />
-        </StyledComponentsRegistry>
+      <body>
+        <h1>Main Layout</h1>
+        {children}
       </body>
     </html>
   );

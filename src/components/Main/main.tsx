@@ -1,13 +1,11 @@
-"use client";
-
-import { LinkButton } from "components/LinkButton";
+import Link from "next/link";
 
 export const Main = () => {
   return (
     <main>
       <h1 style={{ margin: "1rem 0" }}>Main Page</h1>
-      <LinkButton href="/dumb-page">Dumb Page</LinkButton>
-      <LinkButton href="/regular-page">Regular Page</LinkButton>
+      <Link href="/dumb-page">Dumb Page</Link>
+      <Link href="/regular-page">Regular Page</Link>
     </main>
   );
 };

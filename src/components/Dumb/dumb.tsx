@@ -1,6 +1,6 @@
 "use client";
 
-import { LinkButton } from "components/LinkButton";
+import Link from "next/link";
 import React from "react";
 
 interface DumbProps {
@@ -11,7 +11,7 @@ const Dumb: React.FC<DumbProps> = ({ title }) => {
   return (
     <div>
       <h1 style={{ margin: "1rem 0" }}>{title}</h1>
-      <LinkButton href="/">Main Page</LinkButton>
+      <Link href="/">Main Page</Link>
     </div>
   );
 };
