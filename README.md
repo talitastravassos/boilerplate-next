@@ -2,13 +2,13 @@
 
 ## Tools
 
-- Next 13
+- Next 16
 - Typescript
 - Eslint
 - Prettier
 - Jest
 - React Testing Library
-- Styled Components
+- Sass
 - Babel
 - DependaBot
 
