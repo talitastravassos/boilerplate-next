@@ -26,7 +26,7 @@
     "next": "^16.1.4",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "sass": "^1.97.2"
+    "sass": "^1.99.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.26.0",
